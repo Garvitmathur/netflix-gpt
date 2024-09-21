@@ -17,7 +17,7 @@ import { LOGO } from '../utils/constants';
             navigate("/error");
           });
       }; 
-
+                            
       useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
           if (user) {
